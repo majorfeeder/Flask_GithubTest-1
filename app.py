@@ -19,7 +19,7 @@ def stocks():
     return render_template('stocks.html', stocks=stocks)
 
 @app.route('/stocks')
-def stocks():
+def t1m3():
     print("Dennis")
 
 
