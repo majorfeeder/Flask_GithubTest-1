@@ -18,6 +18,10 @@ def stocks():
     stocks = ['Apple', 'Microsoft']
     return render_template('stocks.html', stocks=stocks)
 
+@app.route('/stocks')
+def stocks():
+    print("Dennis")
+
 
 
 if __name__ == "__main__": app.run(debug=True)
