@@ -18,11 +18,8 @@ def stocks():
     stocks = ['Apple', 'Microsoft']
     return render_template('stocks.html', stocks=stocks)
 
-@app.route('/stocks')
-def team1m3
-    print("Dennis Leung")
 
-    
+
 if __name__ == "__main__": app.run(debug=True)
 
 
